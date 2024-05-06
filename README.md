@@ -1,1 +1,1 @@
-create a simple watchlist web
+製作一個簡易的電影列表網站，採用flask框架與python搭建
