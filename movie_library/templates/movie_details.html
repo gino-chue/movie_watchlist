@@ -53,7 +53,7 @@
     {% endif %}
 
     {% if movie.description %}
-        <p class="movie__description">{{ 電影介紹 }}</p>
+        <p class="movie__description">{{ movie.description }}</p>
     {% else %}
         <p class="movie__description">還未有介紹 <a class="link" href="{{ url_for('pages.edit_movie', _id=movie._id) }}">新增?</a></p>
     {% endif %}
